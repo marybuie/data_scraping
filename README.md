@@ -1,6 +1,6 @@
 # data_scraping
 
-used code and advise from stack overflow to create this block of code:
+used code and advice from stack overflow to create this block of code:
 def extract_text(soup):
     texts = soup_obj.findAll(text=True)
     return u' '.join(t.strip() for t in texts)
